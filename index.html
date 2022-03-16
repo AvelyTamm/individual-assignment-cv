@@ -75,6 +75,8 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
+
+
           <section class="my-3 biography-section">
             <h2>Professional Experience</h2>
             <!--
@@ -82,26 +84,27 @@
               "list-unstyled" is a class that hides the bullet points of a list.
             -->
             <ul class="biography-list list-unstyled">
-           
-
-              <!-- Top item (generally the latest or most relevant) in professional experience -->
-          
+            <!-- Top item (generally the latest or most relevant) in professional experience -->
+              
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/dfds-vector-logo.png" alt="Company logo" width="120">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/dfds-vector-logo.png" alt="School logo" width="120">
                 </div>
-
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Customer Service, DFDS Estonian Branch</h4>
                   <h5>June&ndash;August 2019&ndash;2021</h5>
-                  <!-- Use the list below to talk about your achievements -->
-                  <ul class="biography-details list-unstyled">
+                  <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
+                  <ul class="a">
                     <li>Making reservations for clients</li>
-                    <li>Booking units for the departure</li>
+                    <li>Booking units for departures</li>
                   </ul>
                 </div>
-                
+              </li>
+
+            </ul>
           </section>
+
+
 
           <!-- We're done with jobs, let's move on to schools -->
 
@@ -118,7 +121,7 @@
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
                   <h5>2020&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
-                  <ul class="biography-details list-unstyled">
+                  <ul class="a">
                     <li>Editor-in-Chief of BLEND</li>
                   </ul>
                 </div>
@@ -132,7 +135,7 @@
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>High School Diploma, Tartu Jaan Poska Gymnasium</h4>
                   <h5>2017&nbsp;&ndash;&nbsp;2020</h5>
-                  <ul class="biography-details list-unstyled">
+                  <ul class="a">
                     <li>Art and the humanities</li>
                   </ul>
                 </div>
@@ -145,7 +148,7 @@
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Secondary School, Mustvee Gymnasium</h4>
                   <h5>2008&nbsp;&ndash;&nbsp;2017</h5>
-                  <ul class="biography-details list-unstyled">
+                  <ul class="a">
                   </ul>
                 </div>
               </li>
@@ -219,6 +222,14 @@
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Russian</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+                </div>
+              </li>
+                <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">Dutch</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
